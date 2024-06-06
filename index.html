@@ -5,21 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="login">
-        <form action="" method="post">
-            <input type="text" name="Nome" id="Nome" placeholder="Nome"><br>
-            <input type="password" name="Senha" id="Senha" placeholder="Digite sua Senha..."><br>
-            <div class="persistente">
-                <input type="checkbox" name="Lembrar" id="Lembrar">
-                <label for="Lembrar">Mantenha-me conectado</label>
-            </div>
-            <input type="submit" value="Fazer login"><br>
-            <a href="#">Esqueci minha senha...</a><br>
-        </form>
-    </div>
+    <main>
+        <div class="login">
+            <form action="" method="post">
+
+                <input type="text" name="Nome" id="Nome" placeholder="Nome"><br>
+                <input type="password" name="Senha" id="Senha" placeholder="Digite sua Senha..."><br>
+
+                <div class="persistente">
+                    <label for="Lembrar" class="switch">
+                        <input type="checkbox" name="Lembrar" id="Lembrar">
+                        <span class="slider round"></span>
+                    </label>
+
+                </div>
+                <input type="submit" value="Fazer login"><br>
+                <a href="#">Esqueci minha senha...</a><br>
+            </form>
+        </div>
+    </main>
+
 </body>
 
 </html>
